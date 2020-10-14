@@ -1,0 +1,106 @@
+<!-- Etiqueta de comentarios-->
+
+<html lang="es">
+<head>
+    
+    <title>Clase 1</title>  <!--este es el titulo que aparecera en la pestaña -->
+
+</head>
+<body>
+    
+
+
+    
+<div class="menu"></div>
+</div>
+</div>
+
+
+<!--div dividir la pagina en secciones-->
+<div class="encabezado">
+        <!-- el atributo align="center" indica literalmente centrar el texto-->
+    <h1 align="center">Tienda virtual</h1>   <!--El título principal de la páina de HTML -->
+</div>
+
+<div class="menu">
+    <ul>        <!--Listas desordenadas o sin...numero-->
+        <li> <a href="index.html">Inicio</a> </li>     <!--La <li>etiqueta se usa dentro de listas ordenadas ( <ol> ), listas desordenadas ( <ul> ) y en listas de menú ( <menu> ).-->
+        <li> <a href="#">Quienes somos</a></li> <!--Colocar li*3 creará 3 copias de li-->
+            <ol>
+
+                <li>Casa</li>
+                <li>Departamento</li>
+                <li>Hotel</li>
+
+            </ol>
+        <li><a href="imagenes.html">Imagenes</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</div>
+
+<div class="principal">
+        <!--h2 subtítulo-->
+        <h2>Imágenes</h2>
+<a href=""></a>
+    <!--img sin cierre para colocar imagenes en la pagina web en src=""-->
+    <!--en este caso especifico se hizo un ancla con la imagen, si hacemos click en la imagen nos redirecciona a https://twitter.com/home-->
+    <a target="_blank" href="https://twitter.com/home"><img src="./img/p1.jpeg" alt="Imagen de Persona 1" height="400" width="330"></a>
+    <!--el ejemplo de arriba se usa especialmente en banners-->
+    <img src="./img/p2.jpeg" alt="Imagen de Persona 2" height="400" width="400">
+    <img src="./img/p3.jpeg" alt="Imagen de Persona 3" height="400" width="300">
+
+    <!--La <b>etiqueta especifica texto en negrita sin importancia adicional.-->   <!--La <br> etiqueta inserta un solo salto de línea.-->
+    <p>Hola a todos si se puede <b>poner imágenes</b> en <strong>pestañas... </strong><br>no sean ansiosos!!!</p>     <!--La <p>etiqueta define un párrafo.Los navegadores agregan automáticamente una sola línea en blanco antes y después de cada <p> elemento. -->
+                                        <!--La <strong>etiqueta se utiliza para definir texto con gran importancia. El contenido del interior se muestra normalmente en negrita .-->
+                <!--etiqueta <a href=""></a> de hipervinculos usado en texto "dolor"-->
+    <p>Lorem ipsum <a href="https://es.wikipedia.org/wiki/Dolor"> dolor</a> sit amet, <!-- em es tecto enfatizado que se visualiza como cursiva-->
+        consectetur adipisicing elit. <em>Corrupti</em>, recusandae odit officia adipisci consequuntur ab id ea ut voluptatibus sed? Eos veritatis numquam eveniet quae. 
+        Earum quo aperiam assumenda voluptatum!</p>
+                                    <!--En este caso utilizamos italica que es solo cursiva sin enfasis-->
+    <p>Lorem ipsum <a href="https://es.wikipedia.org/wiki/Dolor"> dolor</a> sit, amet consectetur adipisicing elit. <i>Exercitationem</i>, assumenda animi voluptate accusamus eius vitae? Aliquam cum ratione maxime quis earum cumque provident exercitationem, porro eaque repellendus placeat ipsa qui?</p>
+
+    <ul>
+    <!--Etiqueta <a> </a> se utiliza para hipervinculo-->
+    <li><a href="https://www.google.com.ar/webhp?tab=mw&ei=yllQWOLdKMrUabGQlegB&ved=0EKkuCAYoAg" target="_blank">Enlaces</a></li>
+    <li><a href="https://www.youtube.com/?gl=AR&tab=w1" target="_blank">Youtube</a></li>
+    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+    <li><a href="mailto:davikin01@gmail.com" target="_blank">Enviar mail</a></li>
+    <li><img src="./img/p4.jpeg" alt="Imagen de Persona 4" height="400" width="330"><a href="./img/p4.jpeg" target="_blank">Descargar Imagen</a></li>
+    
+    </ul>
+</div>
+<div>       <!--los iframe se utilizan cuando quieran enlazar videos de you tube, mapas,-->
+    <h2>Como trabajar con iframe</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ptXiQwE535s" 
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+
+    <iframe width="330" src="https://www.youtube.com/embed/SIotISUq-3w"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+    </iframe>
+
+    <h3>Mapas con google</h3>
+    <p><strong>Ovelisco</strong></p>
+
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7810.703838767267!2d-58.38558684670894!3d-34.604251800393854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1602421045528!5m2!1ses-419!2sar" 
+    width="400" frameborder="3" style="border: 1;" allowfullscreen="" aria-hidden="false" tabindex="0">
+    </iframe>
+</div>
+
+<div class="pie de página">
+    <!-- footer etiqueta de pie de página-->
+    <footer>
+        <p>Design By: <em><b>Amhedriel.</b></em> </p>
+        <p>Dirección</p>
+        <p>Teléfono</p>
+        <p><a href="mailto:davikin_01@hotmail.com">davikin_01@hotmail.com</a></p>
+
+        <img src="./img/css.jpg" alt="Imagen de css" weidth="330px" height="">
+    </footer>
+</div>
+</body>
+</html>

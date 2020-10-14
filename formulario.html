@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <!--Header-->
+<body>
+<div>
+    <h1>Titulo principal</h1>
+</div>
+
+<!--nav-->
+
+<div>
+    <ul>
+        <li>Inicio</li>
+        <li>Quienes somos</li>
+        <li>Fotos</li>
+        <li>Contacto</li>
+    </ul>
+
+
+</div>
+
+<!--Section-->
+<div>
+    <hr>       <!--etiqueta para dibujar una linea horizontal-->
+    <h1>Fornmulario</h1>
+
+    <form action=""> <!--La <form>etiqueta se utiliza para crear un formulario HTML para la entrada del usuario.-->
+        <label for="">Nombre</label> <!--La <label>etiqueta define una etiqueta para varios elementos:-->
+    <!--La <input>etiqueta especifica un campo de entrada donde el usuario puede ingresar datos. El <input>elemento es el elemento de forma más importante.-->
+            <input type="text" placeholder="Nombre"> <!--con placeholder se puede meter dentro del tipo texto algo que venga como predeterminado o referencia-->
+        <br>
+        <label for="">Apellido</label>
+            <input type="text"placeholder="Apellido">
+        <br>
+        <label for="">Password</label>
+            <input type="password">
+        <br>
+        <label for="">Ingrese un comentario</label>
+        <textarea></textarea> <!--La <textarea>etiqueta define un control de entrada de texto de varias líneas.
+            se utiliza a menudo en un formulario para recopilar las entradas de los usuarios, como comentarios o reseñas.
+        Un área de texto puede contener un número ilimitado de caracteres y el texto se representa en una fuente de ancho fijo (generalmente Courier).-->
+        <br>
+        <!--El <select>elemento se utiliza para crear una lista desplegable de opciones.-->
+        <label for="">Que voy a comer en la noche?</label>
+        <select name="" id="">
+            
+            <!--La <option>etiqueta define una opción en una lista de selección se puede usar sin ningún atributo, pero generalmente necesita el atributo de valor,
+            que indica lo que se envía al servidor al enviar el formulario. -->
+            <option value="">Pizza</option>
+            <option value="">Empanadas</option>
+            <option value="">Hamburguesa</option>
+            <option value="" selected>Tacos</option> <!--Con Selected estamos colocando la opcion por defecto en la seleccion-->
+            <option value="">Ñoquis</option>
+            <option value="" disabled>Picada</option> <!--con disable se deshabilta esa opcion y otras etiquetas.-->
+
+
+        </select>
+        
+        <br>
+        <input type="submit" value="Enviar"> <!--crea un boton para "Enviar" el formulario-->
+        <br>
+        <input type="reset" value="Restablecer"> <!--Crea un boton para Reestablecer todo el formulario-->
+
+        <br>
+    </form>
+    <br>
+    <hr>
+
+</div>
+
+
+<div>
+
+    <address>Dirección</address>
+    <p>Designed By Amhedriel</p>
+
+</div>
+</body>
+</html>
